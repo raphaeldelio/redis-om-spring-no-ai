@@ -16,3 +16,6 @@ Another option is to run the project with `redis.om.spring.ai.enabled set to `tr
 
 If you run this project with the `redis.om.spring.ai.enabled` property set to `true`, the application will throw a `ClassNotFoundException` exception.
 If you run this project without the `redis.om.spring.ai.enabled` property set, the application will print "Hello, Redis OM Spring!" to the console.
+
+### To enable Spring AI
+Uncomment the commented sections in the POM file and change the `redis.om.spring.ai.enabled` property to `true` in the `application.properties` file.
